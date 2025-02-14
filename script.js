@@ -8,7 +8,8 @@ function insert_Row() {
 	td2.innerText="New Cell2";
 	
 	tr.append(td1,td2);
+	sampleTable.insertRow(tr.rows[0]);
 	// sampleTable.insertBefore(tr, sampleTable.firstChild);
-	sampleTable.tBodies[0].insertBefore(tr, sampleTable.rows[0]);
+	// sampleTable.tBodies[0].insertBefore(tr, sampleTable.rows[0]);
   
 }
